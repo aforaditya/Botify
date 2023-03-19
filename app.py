@@ -86,8 +86,6 @@ def main():
     from transformers import AutoTokenizer, AutoModelForSequenceClassification
     tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment-latest")
     model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment-latest")
-
-    model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment-latest")
     #%%
     def predict(text):
         # tokenize the text
