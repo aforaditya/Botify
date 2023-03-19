@@ -298,5 +298,8 @@ def main():
     print(final_dict)
     return final_dict
 
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0')
+
 
 
