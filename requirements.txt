@@ -3,4 +3,4 @@ pandas
 numpy
 flask
 transformers
-torch torchvision torchaudio
+torch
